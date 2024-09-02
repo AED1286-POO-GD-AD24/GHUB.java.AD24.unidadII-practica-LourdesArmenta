@@ -43,6 +43,13 @@ public class Principal {
         alumno3.mostrarNombre();
         System.out.print("Mi edad es:");
         alumno3.mostrarEdad();
+
+        Animal animal1 = new Animal();
+        Animal animal2 = new Animal("macho","Firulais",2,"Perro"," Damian");
+
+        System.out.println("El animal 2 su propietario es: ");
+        animal2.obtenerNombreDueño();
+
       
 
 
