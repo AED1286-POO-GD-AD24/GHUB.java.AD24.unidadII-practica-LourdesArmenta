@@ -29,15 +29,19 @@ public class Alumno{
     }
     //Metodo
     public void mostrarNombre(){
+        System.out.println(nombre+" "+apellidoPaterno+" "+apellidoMaterno);
 
     }
     public void mostrarEdad(){
+        System.out.println(edad);
 
     }
     public void saludo(){
         System.out.println("Hola a todos, me da gusto conocerlos");
 
     }
+
+    
 
     public int getId(){
         return this.id;
