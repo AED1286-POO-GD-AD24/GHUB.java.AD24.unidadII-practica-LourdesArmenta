@@ -1,4 +1,10 @@
 ./miTest/AppTest.java
+./miPrincipal/Licuadora.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Alumno.java
+./miPrincipal/Celular.java
+./miPrincipal/Calculadora.java
+./miPrincipal/Tostadora.java
+./miPrincipal/Television.java
+./miPrincipal/Libro.java
 ./miPrincipal/Animal.java

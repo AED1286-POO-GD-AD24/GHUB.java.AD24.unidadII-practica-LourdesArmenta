@@ -1,4 +1,5 @@
 package miPrincipal;
+import java.util.Scanner;
 
 public class Principal {
     public String getGreeting() {
@@ -7,6 +8,43 @@ public class Principal {
 
     public static void main(String[] args) {
         //System.out.println(new Principal().getGreeting());
+        Scanner teclado = new Scanner(System.in);
+        int opc = 0;
+        do{
+            System.out.println("********************************");
+            System.out.println("         MENU PRINCIPAL         ");
+            System.out.println("********************************");
+            System.out.println(" 1) Alumno");
+            System.out.println(" 2) Animal");
+            System.out.println(" 3) Libro");
+            System.out.println(" 4) Television");
+            System.out.println(" 5) Celular");
+            System.out.println(" 6) Tostadora");
+            System.out.println(" 7) Licuadora");
+            System.out.println(" 8) Calculadora");
+            System.out.println("\t 0) Salir");
+            System.out.print("Seleccione la opción deseada:");
+            opc = teclado.nextInt();
+            switch (opc){
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 0:
+                    System.out.println("Hasta luego!");
+                    teclado.close();
+                    break;
+                default:
+                   System.out.println("Opción incorrecta");
+
+            }
+        } while (opc !=0);
+        
+
         //Creando un objeto de tipo Alumno
         Alumno alumno1 = new Alumno();
         Alumno alumno2 = new Alumno(123,"Lourdes","Armenta","Lindoro",'M',56);
