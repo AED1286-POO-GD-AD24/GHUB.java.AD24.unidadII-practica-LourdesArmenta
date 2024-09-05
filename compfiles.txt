@@ -9,5 +9,6 @@
 ./miPrincipal/AppLibro.java
 ./miPrincipal/Television.java
 ./miPrincipal/AppAnimal.java
+./miPrincipal/AppTelevision.java
 ./miPrincipal/Libro.java
 ./miPrincipal/Animal.java

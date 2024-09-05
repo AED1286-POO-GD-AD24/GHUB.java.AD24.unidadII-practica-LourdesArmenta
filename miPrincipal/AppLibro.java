@@ -12,5 +12,29 @@ public class AppLibro{
         System.out.println("Num paginas libro1 "+libro1.getNumPaginas());
         System.out.println("Precio libro1 "+libro1.getPrecio());
 
+        libro1.setAutor("Juan Rulfo");
+        libro1.setTitulo("El Llano en llamas");
+        libro1.setNumPaginas(50);
+
+        System.out.println("Titulo de Libro1 "+libro1.getTitulo());
+        System.out.println("Autor de Libro1 "+libro1.getAutor());
+        System.out.println("Num paginas libro1 "+libro1.getNumPaginas());
+        System.out.println("Precio libro1 "+libro1.getPrecio());
+
+       
+        libro1.mostrarTitulo();
+        libro2.mostrarTitulo();
+        libro3.mostrarTitulo();
+        
+
+
+
+
+
+
+
+
+
+
     }
 }

@@ -34,14 +34,18 @@ public class Principal {
                    AppAnimal.menu();
                    break;
                 case 3:
+                   AppLibro.menu();
+                   break;
                 case 4:
+                   AppTelevision.menu();
+                   break;
                 case 5:
                 case 6:
                 case 7:
                 case 8:
                 case 0:
                     System.out.println("Hasta luego!");
-                    teclado.close();
+                    //teclado.close();
                     break;
                 default:
                    System.out.println("Opción incorrecta");

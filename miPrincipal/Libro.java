@@ -28,7 +28,7 @@ public class Libro {
         return true;
     }
 
-    public void mostraTitulo(){
+    public void mostrarTitulo(){
         System.out.println("El titulo del libro es "+this.titulo);
 
     }
