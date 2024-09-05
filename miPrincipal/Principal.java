@@ -40,9 +40,17 @@ public class Principal {
                    AppTelevision.menu();
                    break;
                 case 5:
+                   AppCelular.menu();
+                   break;
                 case 6:
+                    AppTostadora.menu();
+                    break;
                 case 7:
+                    AppLicuadora.menu();
+                    break;
                 case 8:
+                    AppCalculadora.menu();
+                    break;
                 case 0:
                     System.out.println("Hasta luego!");
                     //teclado.close();
