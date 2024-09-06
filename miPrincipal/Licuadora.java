@@ -24,7 +24,7 @@ public class Licuadora {
         System.out.println("Licuando");
     }
         
-    public void cambioVelocidad(){
+    public void cambiarVelocidad(){
         System.out.println("Cambiando velocidad");
     }
 
