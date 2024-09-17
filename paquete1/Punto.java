@@ -12,15 +12,25 @@ public class Punto {
      */
     //constructor sin argumentos
     public Punto() {
-        x = 0;
-        y = 0;
+        //x = 10;
+        //y = 10;
     }
     //constructor con argumentos
     public Punto(int x, int y) {
         this.x = x;
         this.y = y;
     }
+
+    //imprime el valor de x y y atraves de un método privado
+    private void imprimir(){
+        System.out.println("Valor de X="+x);
+        System.out.println("Valor de Y="+y);
+
+    }
     
+    public void imprimirXY(){
+        imprimir();
+    }
     // devuelva el valor de x
     public int leerX(){
         return x;
