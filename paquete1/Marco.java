@@ -16,6 +16,15 @@ public class Marco {
         Foto u = new Foto("Paloma");
         p = u.mtd();
         t = "*****"+u.q+"*****";
+        System.out.println(t);
     }
+    public void poner(String s){
+        Foto u = new Foto(s);
+        p = u.mtd();
+        t = "*****"+u.q+"*****";
+        System.out.println(t);
+        
+    }
+
     
 }
