@@ -23,6 +23,9 @@ public class Monitor {
     public void setTamanio(int tamanio) {
         this.tamanio = tamanio;
     }
+    public String obtenerDetalles(){
+        return "Monitor Marca: "+marca+" Tamaño: "+tamanio;
+    }
     
 
     

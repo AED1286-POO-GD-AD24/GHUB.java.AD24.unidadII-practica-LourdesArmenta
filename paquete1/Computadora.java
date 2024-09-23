@@ -35,7 +35,7 @@ public class Computadora {
     public static void main(String[] args) {
         Monitor monitor = new Monitor("Dell", 24);
         //Computadora computadora = new Computadora("HP", "Pavilion");
-        System.out.println(computadora.obtenerDetalles());
+       
     }
     
 }

@@ -37,7 +37,8 @@ public class Computadora {
     }
 
     public void obtenerDetalles(){
-        System.out.println("Computadora: "+marca+" Modelo: "+modelo+" Monitor "+monitor);
+
+       // System.out.println("Computadora: "+marca+" Modelo: "+modelo+" Monitor "+.obtenerDetalles());
 
     }
     

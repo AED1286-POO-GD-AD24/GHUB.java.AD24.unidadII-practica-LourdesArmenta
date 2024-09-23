@@ -16,6 +16,9 @@ public class Monitor {
     public int getTamaño() {
         return tamaño;
     }
+    public void obtenerDetalles(){
+        System.out.println("monitor marca = "+marca+" Monitor Tamaño:"+tamaño);
+    }
 
     
     
