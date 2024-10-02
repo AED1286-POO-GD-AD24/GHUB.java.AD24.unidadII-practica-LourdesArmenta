@@ -1,4 +1,4 @@
-package miPrincipal;
+
 public class Alumno{
     //campos o atributo de la clase
     private int id;

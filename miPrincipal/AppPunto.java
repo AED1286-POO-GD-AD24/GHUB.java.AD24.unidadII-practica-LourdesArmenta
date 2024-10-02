@@ -1,4 +1,4 @@
-package miPrincipal;
+//package miPrincipal;
 import paquete1.*;
 
 

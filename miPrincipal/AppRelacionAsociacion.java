@@ -1,4 +1,4 @@
-package miPrincipal;
+//package miPrincipal;
 import paquete2.*;
 
 public class AppRelacionAsociacion {

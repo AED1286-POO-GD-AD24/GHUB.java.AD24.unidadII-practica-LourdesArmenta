@@ -1,4 +1,4 @@
-package miPrincipal;
+
 
 public class Animal {
     private String genero;

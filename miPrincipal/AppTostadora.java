@@ -1,4 +1,4 @@
-package miPrincipal;
+//package miPrincipal;
 
 public class AppTostadora {
     public static void menu() {

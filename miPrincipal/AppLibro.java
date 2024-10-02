@@ -1,4 +1,4 @@
-package miPrincipal;
+//package miPrincipal;
 public class AppLibro{
     public static void menu(){
         System.out.println("********************************");

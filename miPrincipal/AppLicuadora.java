@@ -1,4 +1,4 @@
-package miPrincipal;
+//package miPrincipal;
 
 public class AppLicuadora {
     public static void menu() {

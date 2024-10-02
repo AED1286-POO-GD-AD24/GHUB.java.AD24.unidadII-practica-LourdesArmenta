@@ -1,4 +1,4 @@
-package miPrincipal;
+//package miPrincipal;
 
 public class AppTelevision {
     public static void menu() {

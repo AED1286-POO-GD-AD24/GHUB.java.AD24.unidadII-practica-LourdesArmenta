@@ -1,4 +1,4 @@
-package miPrincipal;
+
 public class AppAlumno{
     public static void menu(){
         System.out.println("********************************");
