@@ -22,6 +22,26 @@ public class testDescuento {
               nuevoPrecio);
 
         System.out.println("Precio producto: " + producto.getPrecio());
+
+        nuevoPrecio =producto.calcularDescuento(descuento);
+
+        System.out.println("El producto " + producto.getNombre()+ " tiene un precio de " +
+              producto.getPrecio() + " y con el descuento de " + descuento + "% tiene un precio de " + 
+              nuevoPrecio);
+
+        System.out.println("Precio producto: " + producto.getPrecio());
+
+        //conversion de double a int de forma explicita
+        int nuevoDescuento = (int) descuento;
+
+        nuevoPrecio = producto.calcularDescuento(nuevoDescuento);
+        System.out.println("El producto " + producto.getNombre()+ " tiene un precio de " +
+        producto.getPrecio() + " y con el descuento de " + descuento + "% tiene un precio de " + 
+        nuevoPrecio);
+
+        System.out.println("Precio producto: " + producto.getPrecio());
+
+
         
     }
     

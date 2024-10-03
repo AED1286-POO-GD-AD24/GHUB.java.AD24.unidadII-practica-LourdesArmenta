@@ -33,7 +33,30 @@ public class Producto {
 
     public  double calcularDescuento(double p, double d){
         double nuevo = p - (p * d / 100);
+
+        this.precio = nuevo;
+
         return nuevo;
 
     }
+
+    public  double calcularDescuento( double d){
+        double nuevo = this.precio - (this.precio * d / 100);
+
+        this.precio = nuevo;
+
+        return nuevo;
+
+    }
+
+     public double calcularDescuento(int descuento){
+        double nuevo = this.precio - (this.precio * descuento / 100);
+
+        this.precio = nuevo;
+
+        return nuevo;
+    }
+
+
+    
 }
