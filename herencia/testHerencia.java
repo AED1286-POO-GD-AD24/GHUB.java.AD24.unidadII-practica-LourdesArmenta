@@ -10,6 +10,8 @@ public class testHerencia {
 
         System.out.println(persona1.toString());
 
+        System.out.println(persona1.saludo());
+
         Alumno alumno1 = new Alumno();
         alumno1.setNombre("Maximiliano Martin");
         alumno1.setEdad(20);
@@ -17,8 +19,11 @@ public class testHerencia {
         System.out.println("Alumno 1: nombre "+alumno1.getNombre());
         System.out.println("Alumno 1: edad "+alumno1.getEdad());
         System.out.println("Alumno 1: numero de control "+alumno1.getNumControl());
+       
 
         System.out.println(alumno1);
+
+        System.out.println(alumno1.saludo());
         
 
         Empleado empleado1 = new Empleado();
@@ -31,6 +36,8 @@ public class testHerencia {
         System.out.println("Empleado 1: sueldo "+empleado1.getSueldo());
 
         System.out.println(empleado1.toString());
+
+        System.out.println(empleado1.saludo());
 
 
         Integer a = 123;

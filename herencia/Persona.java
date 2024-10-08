@@ -22,6 +22,12 @@ public class Persona {
         this.edad = edad;
     }
 
+    protected String saludo(){ //protected es un modificador de acceso que permite que 
+                                //los métodos o atributos sean accesibles desde las clases hijas y desde
+                                //las clases del mismo paquete
+        return "Hola soy  una Persona";
+    }
+
     @Override
     public String toString() {
         return "Persona :" +nombre +", "+edad;

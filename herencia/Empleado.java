@@ -12,6 +12,11 @@ public class Empleado extends Persona{
     }
 
     @Override
+    public String saludo(){
+        return "Hola soy un Empleado";
+    }
+
+    @Override
     public String toString(){
         return "Empleado: "+this.getNombre()+", "+this.getEdad()+", "+sueldo;
     }

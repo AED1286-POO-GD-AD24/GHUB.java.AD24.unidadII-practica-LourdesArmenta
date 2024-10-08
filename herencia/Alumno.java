@@ -17,6 +17,11 @@ public class Alumno extends Persona{
     }
 
     @Override
+    public String saludo(){
+        return "Hola soy un Alumno";
+    }
+
+    @Override
     public String toString(){
 
         return "Alumno :"+this.getNombre()+", "+this.getEdad()+" ,"+numControl;

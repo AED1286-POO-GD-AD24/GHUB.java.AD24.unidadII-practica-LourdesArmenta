@@ -6,16 +6,56 @@ Plantilla básica para proyecto de Java con Autograding
 [Editor en línea](https://mermaid.live/)
 ```mermaid
 ---
-title: Clase
+title: Ejemplo de Herencia 1
 ---
 classDiagram
-      class Clase
-      Clase: -x
-      Clase: -y
-      Clase: +op1()
-      Clase: +op2()
-      Clase: +op3()
-      Clase: +op4()
+      class Persona {
+        -String nombre
+        -int edad
+        +Persona()
+        +Persona(String nombre, int edad)
+        +String getNombre()
+        +void setNombre(String nombre)
+        +int getEdad()
+        +void setEdad(int edad)
+        +String toString()
+    }
+    class Alumno {
+        -String matricula
+        +Alumno()
+        +Alumno(String nombre, int edad, String matricula)
+        +String getMatricula()
+        +void setMatricula(String matricula)
+        +String toString()
+    }
+    class Empleado {
+        -double salario
+        +Empleado()
+        +Empleado(String nombre, int edad, double salario)
+        +double getSalario()
+        +void setSalario(double salario)
+        +String toString()
+    }
+    Persona <|-- Alumno
+    Persona <|-- Empleado
+```
+
+```mermaid
+---
+title: Ejemplo de Herencia 
+---
+classDiagram
+      class Publicacion {
+        
+    }
+    class Revista {
+       
+    }
+    class Libro {
+       
+    }
+    Publicacion <|-- Revista
+    Publicacion <|-- Libro
 ```
 [Referencia-Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
 
