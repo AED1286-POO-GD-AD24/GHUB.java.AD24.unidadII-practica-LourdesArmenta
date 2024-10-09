@@ -2,41 +2,28 @@ package miembroEstatico;
 
 public class ProbarEjemplo2 {
     public static void main(String[] args) {
+        Ejemplo2 ejemplo2 = new Ejemplo2();
+        System.out.println(ejemplo2.cuenta);
         probarEjemplo2();
-}
 
-void probarEjemplo2(){
-    Ejemplo2 d1,d2; 
-        System.out.println("Objetos Ejemplo "+Ejemplo2.cuenta); //el miembro cuenta como es estático pertenece
-                                                              //a la clase, no a los objetos
-        d1 = new Ejemplo2();
-        d2 = new Ejemplo2(11);
 
-        System.out.println("Objetos Ejemplo "+Ejemplo2.cuenta);
 
-        d2=d1;
-        System.gc();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-          
-            e.printStackTrace();
-        }
+        
+    }
 
-        System.out.println("Objetos Ejemplo "+Ejemplo2.cuenta);
+    static void probarEjemplo2(){
+        Ejemplo2 ejemplo2 = new Ejemplo2();
+        System.out.println("objetos activos:"+ejemplo2.cuenta);//en este caso la variable cuenta pertenece al 
+                                            //objeto y no a la clase
 
-        d2 = d1  = null;
+        Ejemplo2 ej1,ej2;
+        ej1=new Ejemplo2();
+        ej2=new Ejemplo2(11);
 
-        System.gc();
+        System.out.println("objetos activos:"+ejemplo2.cuenta);//porque siguie siendo uno
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-          
-            e.printStackTrace();
-        }
 
-        System.out.println("Objetos Ejemplo "+Ejemplo2.cuenta);
+    
 
-}
+    }
 }
