@@ -42,7 +42,7 @@ classDiagram
 
 ```mermaid
 ---
-title: Ejemplo de Herencia 
+title: Ejemplo de Herencia 2
 ---
 classDiagram
       class Publicacion {
@@ -56,6 +56,83 @@ classDiagram
     }
     Publicacion <|-- Revista
     Publicacion <|-- Libro
+```
+
+```mermaid
+---
+title: Ejemplo de Herencia 3
+---
+classDiagram
+      class Empleado {
+        -String nombre
+        -int edad
+        -String tipoRelacionLaboral
+        
+    }
+
+    class EmpleadoSueldoFijo {
+        -double sueldoFijo
+       
+    }
+
+    class EmpleadoPorHoras {
+        -double tarifaPorHora
+        -int horasTrabajadas
+       
+    }
+
+    class EmpleadoComision {
+        -double comision
+        -int ventasRealizadas
+        
+    }
+
+    class EmpleadoIndustrial {
+        
+    }
+
+    class EmpleadoComercial {
+       
+    }
+
+    Empleado <|-- EmpleadoSueldoFijo
+    Empleado <|-- EmpleadoPorHoras
+    Empleado <|-- EmpleadoComision
+    Empleado <|-- EmpleadoIndustrial
+    Empleado <|-- EmpleadoComercial
+```
+
+```mermaid
+---
+title: Ejemplo de Herencia 4
+---
+classDiagram
+      class Barco {
+      
+        
+    }
+
+    class DeVapor {
+       
+       
+    }
+
+    class Velero {
+        
+       
+    }
+
+    class Carguero {
+        
+        
+    }
+
+   
+
+    Barco <|-- DeVapor
+    Barco <|-- Velero
+    DeVapor <|-- Carguero
+   
 ```
 [Referencia-Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
 
